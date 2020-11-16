@@ -1,16 +1,22 @@
-#boutonSubmit
-{
-width:100px;
-height:30px;
-margin:auto;
-background-color:rgb(171, 171, 177);
+#boutonSubmit {
+    width:100px;
+    height:30px;
+    margin:auto;
+    background-color:rgb(171, 171, 177);
 }
 
 
-#text{
+#text {
     font-size: x-large;
-    background-color:blue;
     font-weight: bold;
     width: fit-content;
     font-weight: 900;
 }
+
+.colorBlue {
+    background-color:blue;
+}   
+
+.colorRed {
+    background-color:red;
+} 

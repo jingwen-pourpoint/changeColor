@@ -11,10 +11,10 @@ bouton.addEventListener("click", () => {
 
 function changeColor() {
 	if (colorInit) {
-		text.style.backgroundColor = "red";
+		text.className = "colorRed";
 		colorInit = false;
 	} else {
-		text.style.backgroundColor = "blue";
+		text.className = "colorBlue";
 		colorInit = true;
 	}
 }
